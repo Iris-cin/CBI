@@ -1,0 +1,300 @@
+/*
+  🕵️‍♂️ Alerte de Sécurité ! 🕵️‍♀️
+
+  Vous avez découvert notre feuille de style secrète ! Bravo, vous avez réussi à pénétrer dans le
+  monde mystérieux des styles CSS. Ici, les couleurs sont vives, les marges sont larges et les bordures
+  sont impeccables. Mais rappelez-vous, ce CSS est comme un costume de super-héros : il ne doit pas être pris
+  trop au sérieux.
+
+  Quelques notes importantes :
+  - Les variables CSS sont fictives.
+  - Les sélecteurs sont comme des agents secrets : parfois cachés, parfois évidents.
+  - Les commentaires sont là pour vous guider, pas pour vous espionner !
+
+  En cas de doute ou pour une consultation sur les styles, veuillez consulter la page d'accueil. 
+  N'oubliez pas, ce site est parodique et tout est fait pour vous faire sourire. 😊
+
+  Merci de votre curiosité et bon décryptage !
+
+  Cordialement,
+  Louanne
+*/
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+
+header {
+    background-color: #003366; 
+    color: white;
+    padding: 20px 0;
+    border-bottom: 5px solid #002244; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header-info {
+    text-align: center;
+}
+
+.logo {
+    width: 120px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 34px;
+    margin: 10px 0;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #b3c6ff;
+}
+
+
+.slideshow {
+    position: relative;
+    margin-bottom: 40px;
+    overflow: hidden; 
+    border-radius: 8px;
+}
+
+.slider .slide {
+    position: relative;
+    overflow: hidden;
+}
+
+.slider img {
+    width: 100%;
+    height: 600px; 
+    object-fit: cover;
+    display: block;
+}
+
+
+.slide-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.6); 
+    color: white;
+    text-align: left;
+    border-radius: 0 0 8px 8px;
+}
+
+.slide-content h2 {
+    margin: 0;
+    font-size: 24px; 
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.slide-content p {
+    font-size: 16px; 
+    line-height: 1.4;
+    margin-top: 10px;
+    color: #e0e0e0;
+}
+
+
+.slick-dots {
+    bottom: 10px;
+}
+
+.slick-dots li button:before {
+    font-size: 12px;
+    color: #ffffff;
+}
+
+.slick-prev,
+.slick-next {
+    font-size: 24px;
+    color: #ffffff;
+    opacity: 0.7;
+}
+
+.slick-prev:hover,
+.slick-next:hover {
+    color: #ffffff;
+    opacity: 1;
+}
+
+
+.hero {
+    background-color: #ffffff;
+    padding: 60px 30px;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.hero h2 {
+    margin: 0 0 20px;
+    font-size: 40px;
+    font-weight: 600;
+    color: #003366;
+}
+
+.hero p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #555;
+}
+
+.btn {
+    display: inline-block;
+    padding: 14px 28px;
+    background-color: #003366;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: 500;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #002244;
+    transform: translateY(-2px);
+}
+
+
+.featured {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.info-item {
+    flex: 1;
+    min-width: 280px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.info-item h4 {
+    margin: 0 0 15px;
+    font-size: 28px;
+    font-weight: 500;
+    color: #003366;
+}
+
+.info-item p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+}
+
+.call-to-action {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 40px;
+    border-radius: 8px;
+    margin-bottom: 40px;
+}
+
+.call-to-action h3 {
+    margin: 0 0 20px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.call-to-action p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.call-to-action .btn {
+    background-color: #ffffff;
+    color: #003366;
+    border: 2px solid #ffffff;
+}
+
+.call-to-action .btn:hover {
+    background-color: #e0e0e0;
+    color: #003366;
+}
+
+
+footer {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    border-top: 5px solid #002244;
+}
+
+footer p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+footer a {
+    color: #e0e0e0;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+
+.warning-link {
+    color: #ffffff;
+    background-color: #d9534f; 
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.warning-link:hover {
+    background-color: #c9302c;
+}

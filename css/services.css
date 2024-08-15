@@ -1,0 +1,156 @@
+/*
+  🕵️‍♂️ Alerte de Sécurité ! 🕵️‍♀️
+
+  Vous avez découvert notre feuille de style secrète ! Bravo, vous avez réussi à pénétrer dans le
+  monde mystérieux des styles CSS. Ici, les couleurs sont vives, les marges sont larges et les bordures
+  sont impeccables. Mais rappelez-vous, ce CSS est comme un costume de super-héros : il ne doit pas être pris
+  trop au sérieux.
+
+  Quelques notes importantes :
+  - Les variables CSS sont fictives.
+  - Les sélecteurs sont comme des agents secrets : parfois cachés, parfois évidents.
+  - Les commentaires sont là pour vous guider, pas pour vous espionner !
+
+  En cas de doute ou pour une consultation sur les styles, veuillez consulter la page d'accueil. 
+  N'oubliez pas, ce site est parodique et tout est fait pour vous faire sourire. 😊
+
+  Merci de votre curiosité et bon décryptage !
+
+  Cordialement,
+  L'Agence de Style Parodique de CBI
+*/
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #00274d;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+header .logo img {
+    height: 50px; 
+    margin-right: 15px;
+}
+
+header .logo h1 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav {
+    background-color: #001f3f; 
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav ul li a.active {
+    font-weight: bold;
+    border-bottom: 2px solid #ffffff; 
+}
+
+main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 80px auto; 
+}
+
+section {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    margin-top: 0;
+    font-size: 24px;
+    color: #00274d; 
+    border-bottom: 2px solid #00274d;
+    padding-bottom: 10px;
+}
+
+.services-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.service {
+    margin-bottom: 20px;
+}
+
+.service h3 {
+    font-size: 20px;
+    color: #007bff; 
+}
+
+.contact p {
+    margin: 10px 0;
+}
+
+.contact a {
+    color: #007bff; 
+    text-decoration: none;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #00274d;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.disclaimer {
+    background-color: #ffcc00; 
+    color: #000;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}

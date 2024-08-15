@@ -1,0 +1,72 @@
+/*
+  🕵️‍♂️ Alerte de Sécurité ! 🕵️‍♀️
+
+  Vous avez découvert notre feuille de style secrète ! Bravo, vous avez réussi à pénétrer dans le
+  monde mystérieux des styles CSS. Ici, les couleurs sont vives, les marges sont larges et les bordures
+  sont impeccables. Mais rappelez-vous, ce CSS est comme un costume de super-héros : il ne doit pas être pris
+  trop au sérieux.
+
+  Quelques notes importantes :
+  - Les variables CSS sont fictives.
+  - Les sélecteurs sont comme des agents secrets : parfois cachés, parfois évidents.
+  - Les commentaires sont là pour vous guider, pas pour vous espionner !
+
+  En cas de doute ou pour une consultation sur les styles, veuillez consulter la page d'accueil. 
+  N'oubliez pas, ce site est parodique et tout est fait pour vous faire sourire. 😊
+
+  Merci de votre curiosité et bon décryptage !
+
+  Cordialement,
+  L'Agence de Style Parodique de CBI
+*/
+
+.news-detail {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 80px auto; 
+}
+
+.news-item-detail {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.news-item-detail h2 {
+    font-size: 28px;
+    color: #00274d; 
+}
+
+.news-item-detail time {
+    display: block;
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.news-item-detail img {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+    border-radius: 8px;
+}
+
+.news-item-detail p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.back-link {
+    display: inline-block;
+    font-size: 16px;
+    color: #007bff; 
+    text-decoration: none;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}

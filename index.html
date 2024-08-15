@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accueil - CBI</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+</head>
+<body>
+
+
+        <!--
+  🕵️‍♂️ ATTENTION ! 🕵️‍♀️
+
+  Vous êtes sur le point de pénétrer dans les coulisses secrètes de notre site parodique !
+  Ici se cachent les mystères des balises HTML et des attributs CSS. Mais avant de vous aventurer plus loin,
+  sachez que ce code est à des fins de divertissement uniquement. Nos équipes de développement (composées de
+  chatons qui tapent sur des claviers) ont travaillé dur pour vous offrir ce chef-d'œuvre parodique.
+
+  J'apprécie votre curiosité, mais n'oubliez pas :
+  - Ce code est fictif.
+  - Toute ressemblance avec des sites gouvernementaux réels est purement fortuite.
+  - Et surtout, n'oubliez pas de sourire ! 😄
+
+  Merci de visiter le site, mais gardez en tête que même dans le code, le sérieux est une affaire de style.
+  Si vous avez des questions, rendez-vous sur la page de contact, mais pas avant de vous être bien amusé !
+
+  Cordialement,
+  Louanne
+-->
+
+
+
+
+
+
+
+
+
+    <header>
+        <div class="container header-info">
+            <img src="img/logo.png" alt="CBI Logo" class="logo">
+            <h1>Californian Bureau Of Investigation (CBI)</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="about.html">À Propos</a></li>
+                    <li><a href="news/news.html">Actualités</a></li>
+                    <li><a href="careers.html">Carrières</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="disclaimer.html" class="warning-link">Avis de Parodie</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="slideshow">
+            <div class="slider">
+                <div class="slide">
+                    <img src="img/hq.jpg" alt="Cbi's HQ">
+                    <div class="slide-content">
+                        <h2>Quartier Généraux</h2>
+                        <p>Nos équipes en action pour assurer la sécurité et l'ordre public.</p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="img/community_event.webp" alt="Événement Communautaire">
+                    <div class="slide-content">
+                        <h2>Engagement Communautaire</h2>
+                        <p>Participez à nos événements pour renforcer les liens avec la communauté.</p>
+                    </div>
+                </div>
+        </section>
+
+            
+            <section class="hero">
+                <h2>Bienvenue au Californian Bureau Of Investigation (CBI)</h2>
+                <p>Nous sommes une agence dédiée à la protection de l'État de Californie contre les menaces internes et externes. Notre mission est de maintenir la sécurité et l'ordre public à travers des investigations rigoureuses et des opérations de sécurité efficaces.</p>
+                <a href="about.html" class="btn">En savoir plus</a>
+            </section>
+
+           
+            <section class="featured">
+                <div class="info-item">
+                    <h4>Notre Mission</h4>
+                    <p>Le CBI s'engage à assurer la sécurité de la Californie en menant des enquêtes approfondies et en collaborant avec d'autres agences de sécurité pour protéger nos communautés.</p>
+                </div>
+                <div class="info-item">
+                    <h4>Nos Services</h4>
+                    <p>Nous offrons une gamme de services allant des enquêtes criminelles à la protection des personnalités publiques, en passant par la gestion des crises.</p>
+                </div>
+                <div class="info-item">
+                    <h4>Dernières Nouvelles</h4>
+                    <p>Restez informé sur nos dernières opérations, actualités, et événements en consultant notre section des actualités.</p>
+                    <a href="news.html" class="btn">Voir les actualités</a>
+                </div>
+            </section>
+
+           
+            <section class="call-to-action">
+                <h3>Participez à la Sécurité de Votre Communauté</h3>
+                <p>Rejoignez notre équipe et faites une différence. Explorez les opportunités de carrière et contribuez à la sécurité publique.</p>
+                <a href="careers.html" class="btn">Voir les carrières</a>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Californian Bureau Of Investigation. Tous droits réservés.</p>
+            <p><small><strong>Avis important :</strong> Ce site est une parodie et n'a aucun lien avec une véritable agence gouvernementale. Toute ressemblance avec des sites gouvernementaux réels est purement fortuite.</small></p>
+        </div>
+    </footer>
+    
+   
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.slider').slick({
+                dots: true,
+                infinite: true,
+                speed: 500,
+                fade: true,
+                cssEase: 'linear'
+            });
+        });
+    </script>
+</body>
+</html>
